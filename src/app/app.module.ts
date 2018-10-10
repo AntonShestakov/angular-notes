@@ -6,12 +6,14 @@ import { NotesComponent } from './notes/notes.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule} from '@angular/http';
 import { AlertModule } from 'ngx-bootstrap';
+import { SectionComponent } from './section/section.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotesComponent
+    NotesComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
