@@ -1,0 +1,11 @@
+<div>
+<ul class="list-group">
+  <li *ngFor="let note of notes; let i=index" class="list-group-item">
+    {{note.text}} <button (click)="remove(i)" class="btn btn-danger">remove</button>
+  </li>
+</ul>
+
+<textarea [(ngModel)]="text"  class="form-control" ></textarea>
+  <button (click)="add()" class="btn btn-success">Add</button>
+
+</div>
